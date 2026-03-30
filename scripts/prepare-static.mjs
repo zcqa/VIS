@@ -1,4 +1,5 @@
-import { copyFile, mkdir, writeFile } from 'node:fs/promises'
+import { constants } from 'node:fs'
+import { access, copyFile, mkdir, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
@@ -10,7 +11,21 @@ const publicWriteup = path.join(publicDir, 'HW2_PROJECT_WRITEUP.md')
 const noJekyll = path.join(publicDir, '.nojekyll')
 
 await mkdir(publicDir, { recursive: true })
-await copyFile(rootWriteup, publicWriteup)
+await syncIfExists(rootWriteup, publicWriteup, 'write-up')
 await writeFile(noJekyll, '')
 
-console.log('Synced write-up to public and ensured .nojekyll for Pages.')
+console.log('Prepared static Pages assets and ensured .nojekyll.')
+
+async function syncIfExists(sourcePath, targetPath, label) {
+  try {
+    await access(sourcePath, constants.F_OK)
+    await copyFile(sourcePath, targetPath)
+  } catch (error) {
+    if (error && typeof error === 'object' && 'code' in error && error.code === 'ENOENT') {
+      console.warn(`Skipped ${label}: ${path.basename(sourcePath)} was not found in the repo root.`)
+      return
+    }
+
+    throw error
+  }
+}
