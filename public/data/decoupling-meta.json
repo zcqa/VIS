@@ -1,0 +1,1415 @@
+{
+  "baselineYear": 1990,
+  "latestYear": 2022,
+  "years": [
+    1990,
+    1991,
+    1992,
+    1993,
+    1994,
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022
+  ],
+  "regions": [
+    "East Asia & Pacific",
+    "Europe & Central Asia",
+    "Latin America & Caribbean",
+    "Middle East & North Africa",
+    "North America",
+    "South Asia",
+    "Sub-Saharan Africa"
+  ],
+  "incomeLevels": [
+    "High income",
+    "Low income",
+    "Lower middle income",
+    "Not classified",
+    "Upper middle income"
+  ],
+  "featuredCountries": [
+    "CHN",
+    "USA",
+    "IND",
+    "DEU",
+    "GBR"
+  ],
+  "countryOptions": [
+    {
+      "country": "Afghanistan",
+      "isoCode": "AFG",
+      "iso2Code": "AF",
+      "region": "Middle East & North Africa",
+      "incomeLevel": "Low income",
+      "featured": false
+    },
+    {
+      "country": "Albania",
+      "isoCode": "ALB",
+      "iso2Code": "AL",
+      "region": "Europe & Central Asia",
+      "incomeLevel": "Upper middle income",
+      "featured": false
+    },
+    {
+      "country": "Algeria",
+      "isoCode": "DZA",
+      "iso2Code": "DZ",
+      "region": "Middle East & North Africa",
+      "incomeLevel": "Upper middle income",
+      "featured": false
+    },
+    {
+      "country": "Angola",
+      "isoCode": "AGO",
+      "iso2Code": "AO",
+      "region": "Sub-Saharan Africa",
+      "incomeLevel": "Lower middle income",
+      "featured": false
+    },
+    {
+      "country": "Argentina",
+      "isoCode": "ARG",
+      "iso2Code": "AR",
+      "region": "Latin America & Caribbean",
+      "incomeLevel": "Upper middle income",
+      "featured": false
+    },
+    {
+      "country": "Armenia",
+      "isoCode": "ARM",
+      "iso2Code": "AM",
+      "region": "Europe & Central Asia",
+      "incomeLevel": "Upper middle income",
+      "featured": false
+    },
+    {
+      "country": "Australia",
+      "isoCode": "AUS",
+      "iso2Code": "AU",
+      "region": "East Asia & Pacific",
+      "incomeLevel": "High income",
+      "featured": false
+    },
+    {
+      "country": "Austria",
+      "isoCode": "AUT",
+      "iso2Code": "AT",
+      "region": "Europe & Central Asia",
+      "incomeLevel": "High income",
+      "featured": false
+    },
+    {
+      "country": "Azerbaijan",
+      "isoCode": "AZE",
+      "iso2Code": "AZ",
+      "region": "Europe & Central Asia",
+      "incomeLevel": "Upper middle income",
+      "featured": false
+    },
+    {
+      "country": "Bahrain",
+      "isoCode": "BHR",
+      "iso2Code": "BH",
+      "region": "Middle East & North Africa",
+      "incomeLevel": "High income",
+      "featured": false
+    },
+    {
+      "country": "Bangladesh",
+      "isoCode": "BGD",
+      "iso2Code": "BD",
+      "region": "South Asia",
+      "incomeLevel": "Lower middle income",
+      "featured": false
+    },
+    {
+      "country": "Barbados",
+      "isoCode": "BRB",
+      "iso2Code": "BB",
+      "region": "Latin America & Caribbean",
+      "incomeLevel": "High income",
+      "featured": false
+    },
+    {
+      "country": "Belarus",
+      "isoCode": "BLR",
+      "iso2Code": "BY",
+      "region": "Europe & Central Asia",
+      "incomeLevel": "Upper middle income",
+      "featured": false
+    },
+    {
+      "country": "Belgium",
+      "isoCode": "BEL",
+      "iso2Code": "BE",
+      "region": "Europe & Central Asia",
+      "incomeLevel": "High income",
+      "featured": false
+    },
+    {
+      "country": "Benin",
+      "isoCode": "BEN",
+      "iso2Code": "BJ",
+      "region": "Sub-Saharan Africa",
+      "incomeLevel": "Lower middle income",
+      "featured": false
+    },
+    {
+      "country": "Bolivia",
+      "isoCode": "BOL",
+      "iso2Code": "BO",
+      "region": "Latin America & Caribbean",
+      "incomeLevel": "Lower middle income",
+      "featured": false
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "isoCode": "BIH",
+      "iso2Code": "BA",
+      "region": "Europe & Central Asia",
+      "incomeLevel": "Upper middle income",
+      "featured": false
+    },
+    {
+      "country": "Botswana",
+      "isoCode": "BWA",
+      "iso2Code": "BW",
+      "region": "Sub-Saharan Africa",
+      "incomeLevel": "Upper middle income",
+      "featured": false
+    },
+    {
+      "country": "Brazil",
+      "isoCode": "BRA",
+      "iso2Code": "BR",
+      "region": "Latin America & Caribbean",
+      "incomeLevel": "Upper middle income",
+      "featured": false
+    },
+    {
+      "country": "Bulgaria",
+      "isoCode": "BGR",
+      "iso2Code": "BG",
+      "region": "Europe & Central Asia",
+      "incomeLevel": "High income",
+      "featured": false
+    },
+    {
+      "country": "Burkina Faso",
+      "isoCode": "BFA",
+      "iso2Code": "BF",
+      "region": "Sub-Saharan Africa",
+      "incomeLevel": "Low income",
+      "featured": false
+    },
+    {
+      "country": "Burundi",
+      "isoCode": "BDI",
+      "iso2Code": "BI",
+      "region": "Sub-Saharan Africa",
+      "incomeLevel": "Low income",
+      "featured": false
+    },
+    {
+      "country": "Cambodia",
+      "isoCode": "KHM",
+      "iso2Code": "KH",
+      "region": "East Asia & Pacific",
+      "incomeLevel": "Lower middle income",
+      "featured": false
+    },
+    {
+      "country": "Cameroon",
+      "isoCode": "CMR",
+      "iso2Code": "CM",
+      "region": "Sub-Saharan Africa",
+      "incomeLevel": "Lower middle income",
+      "featured": false
+    },
+    {
+      "country": "Canada",
+      "isoCode": "CAN",
+      "iso2Code": "CA",
+      "region": "North America",
+      "incomeLevel": "High income",
+      "featured": false
+    },
+    {
+      "country": "Cape Verde",
+      "isoCode": "CPV",
+      "iso2Code": "CV",
+      "region": "Sub-Saharan Africa",
+      "incomeLevel": "Upper middle income",
+      "featured": false
+    },
+    {
+      "country": "Central African Republic",
+      "isoCode": "CAF",
+      "iso2Code": "CF",
+      "region": "Sub-Saharan Africa",
+      "incomeLevel": "Low income",
+      "featured": false
+    },
+    {
+      "country": "Chad",
+      "isoCode": "TCD",
+      "iso2Code": "TD",
+      "region": "Sub-Saharan Africa",
+      "incomeLevel": "Low income",
+      "featured": false
+    },
+    {
+      "country": "Chile",
+      "isoCode": "CHL",
+      "iso2Code": "CL",
+      "region": "Latin America & Caribbean",
+      "incomeLevel": "High income",
+      "featured": false
+    },
+    {
+      "country": "China",
+      "isoCode": "CHN",
+      "iso2Code": "CN",
+      "region": "East Asia & Pacific",
+      "incomeLevel": "Upper middle income",
+      "featured": true
+    },
+    {
+      "country": "Colombia",
+      "isoCode": "COL",
+      "iso2Code": "CO",
+      "region": "Latin America & Caribbean",
+      "incomeLevel": "Upper middle income",
+      "featured": false
+    },
+    {
+      "country": "Comoros",
+      "isoCode": "COM",
+      "iso2Code": "KM",
+      "region": "Sub-Saharan Africa",
+      "incomeLevel": "Lower middle income",
+      "featured": false
+    },
+    {
+      "country": "Congo",
+      "isoCode": "COG",
+      "iso2Code": "CG",
+      "region": "Sub-Saharan Africa",
+      "incomeLevel": "Lower middle income",
+      "featured": false
+    },
+    {
+      "country": "Costa Rica",
+      "isoCode": "CRI",
+      "iso2Code": "CR",
+      "region": "Latin America & Caribbean",
+      "incomeLevel": "High income",
+      "featured": false
+    },
+    {
+      "country": "Cote d'Ivoire",
+      "isoCode": "CIV",
+      "iso2Code": "CI",
+      "region": "Sub-Saharan Africa",
+      "incomeLevel": "Lower middle income",
+      "featured": false
+    },
+    {
+      "country": "Croatia",
+      "isoCode": "HRV",
+      "iso2Code": "HR",
+      "region": "Europe & Central Asia",
+      "incomeLevel": "High income",
+      "featured": false
+    },
+    {
+      "country": "Cuba",
+      "isoCode": "CUB",
+      "iso2Code": "CU",
+      "region": "Latin America & Caribbean",
+      "incomeLevel": "Upper middle income",
+      "featured": false
+    },
+    {
+      "country": "Cyprus",
+      "isoCode": "CYP",
+      "iso2Code": "CY",
+      "region": "Europe & Central Asia",
+      "incomeLevel": "High income",
+      "featured": false
+    },
+    {
+      "country": "Czechia",
+      "isoCode": "CZE",
+      "iso2Code": "CZ",
+      "region": "Europe & Central Asia",
+      "incomeLevel": "High income",
+      "featured": false
+    },
+    {
+      "country": "Democratic Republic of Congo",
+      "isoCode": "COD",
+      "iso2Code": "CD",
+      "region": "Sub-Saharan Africa",
+      "incomeLevel": "Low income",
+      "featured": false
+    },
+    {
+      "country": "Denmark",
+      "isoCode": "DNK",
+      "iso2Code": "DK",
+      "region": "Europe & Central Asia",
+      "incomeLevel": "High income",
+      "featured": false
+    },
+    {
+      "country": "Djibouti",
+      "isoCode": "DJI",
+      "iso2Code": "DJ",
+      "region": "Middle East & North Africa",
+      "incomeLevel": "Lower middle income",
+      "featured": false
+    },
+    {
+      "country": "Dominica",
+      "isoCode": "DMA",
+      "iso2Code": "DM",
+      "region": "Latin America & Caribbean",
+      "incomeLevel": "Upper middle income",
+      "featured": false
+    },
+    {
+      "country": "Dominican Republic",
+      "isoCode": "DOM",
+      "iso2Code": "DO",
+      "region": "Latin America & Caribbean",
+      "incomeLevel": "Upper middle income",
+      "featured": false
+    },
+    {
+      "country": "Ecuador",
+      "isoCode": "ECU",
+      "iso2Code": "EC",
+      "region": "Latin America & Caribbean",
+      "incomeLevel": "Upper middle income",
+      "featured": false
+    },
+    {
+      "country": "Egypt",
+      "isoCode": "EGY",
+      "iso2Code": "EG",
+      "region": "Middle East & North Africa",
+      "incomeLevel": "Lower middle income",
+      "featured": false
+    },
+    {
+      "country": "El Salvador",
+      "isoCode": "SLV",
+      "iso2Code": "SV",
+      "region": "Latin America & Caribbean",
+      "incomeLevel": "Upper middle income",
+      "featured": false
+    },
+    {
+      "country": "Equatorial Guinea",
+      "isoCode": "GNQ",
+      "iso2Code": "GQ",
+      "region": "Sub-Saharan Africa",
+      "incomeLevel": "Upper middle income",
+      "featured": false
+    },
+    {
+      "country": "Estonia",
+      "isoCode": "EST",
+      "iso2Code": "EE",
+      "region": "Europe & Central Asia",
+      "incomeLevel": "High income",
+      "featured": false
+    },
+    {
+      "country": "Eswatini",
+      "isoCode": "SWZ",
+      "iso2Code": "SZ",
+      "region": "Sub-Saharan Africa",
+      "incomeLevel": "Lower middle income",
+      "featured": false
+    },
+    {
+      "country": "Ethiopia",
+      "isoCode": "ETH",
+      "iso2Code": "ET",
+      "region": "Sub-Saharan Africa",
+      "incomeLevel": "Not classified",
+      "featured": false
+    },
+    {
+      "country": "Finland",
+      "isoCode": "FIN",
+      "iso2Code": "FI",
+      "region": "Europe & Central Asia",
+      "incomeLevel": "High income",
+      "featured": false
+    },
+    {
+      "country": "France",
+      "isoCode": "FRA",
+      "iso2Code": "FR",
+      "region": "Europe & Central Asia",
+      "incomeLevel": "High income",
+      "featured": false
+    },
+    {
+      "country": "Gabon",
+      "isoCode": "GAB",
+      "iso2Code": "GA",
+      "region": "Sub-Saharan Africa",
+      "incomeLevel": "Upper middle income",
+      "featured": false
+    },
+    {
+      "country": "Gambia",
+      "isoCode": "GMB",
+      "iso2Code": "GM",
+      "region": "Sub-Saharan Africa",
+      "incomeLevel": "Low income",
+      "featured": false
+    },
+    {
+      "country": "Georgia",
+      "isoCode": "GEO",
+      "iso2Code": "GE",
+      "region": "Europe & Central Asia",
+      "incomeLevel": "Upper middle income",
+      "featured": false
+    },
+    {
+      "country": "Germany",
+      "isoCode": "DEU",
+      "iso2Code": "DE",
+      "region": "Europe & Central Asia",
+      "incomeLevel": "High income",
+      "featured": true
+    },
+    {
+      "country": "Ghana",
+      "isoCode": "GHA",
+      "iso2Code": "GH",
+      "region": "Sub-Saharan Africa",
+      "incomeLevel": "Lower middle income",
+      "featured": false
+    },
+    {
+      "country": "Greece",
+      "isoCode": "GRC",
+      "iso2Code": "GR",
+      "region": "Europe & Central Asia",
+      "incomeLevel": "High income",
+      "featured": false
+    },
+    {
+      "country": "Guatemala",
+      "isoCode": "GTM",
+      "iso2Code": "GT",
+      "region": "Latin America & Caribbean",
+      "incomeLevel": "Upper middle income",
+      "featured": false
+    },
+    {
+      "country": "Guinea",
+      "isoCode": "GIN",
+      "iso2Code": "GN",
+      "region": "Sub-Saharan Africa",
+      "incomeLevel": "Lower middle income",
+      "featured": false
+    },
+    {
+      "country": "Guinea-Bissau",
+      "isoCode": "GNB",
+      "iso2Code": "GW",
+      "region": "Sub-Saharan Africa",
+      "incomeLevel": "Low income",
+      "featured": false
+    },
+    {
+      "country": "Haiti",
+      "isoCode": "HTI",
+      "iso2Code": "HT",
+      "region": "Latin America & Caribbean",
+      "incomeLevel": "Lower middle income",
+      "featured": false
+    },
+    {
+      "country": "Honduras",
+      "isoCode": "HND",
+      "iso2Code": "HN",
+      "region": "Latin America & Caribbean",
+      "incomeLevel": "Lower middle income",
+      "featured": false
+    },
+    {
+      "country": "Hong Kong",
+      "isoCode": "HKG",
+      "iso2Code": "HK",
+      "region": "East Asia & Pacific",
+      "incomeLevel": "High income",
+      "featured": false
+    },
+    {
+      "country": "Hungary",
+      "isoCode": "HUN",
+      "iso2Code": "HU",
+      "region": "Europe & Central Asia",
+      "incomeLevel": "High income",
+      "featured": false
+    },
+    {
+      "country": "Iceland",
+      "isoCode": "ISL",
+      "iso2Code": "IS",
+      "region": "Europe & Central Asia",
+      "incomeLevel": "High income",
+      "featured": false
+    },
+    {
+      "country": "India",
+      "isoCode": "IND",
+      "iso2Code": "IN",
+      "region": "South Asia",
+      "incomeLevel": "Lower middle income",
+      "featured": true
+    },
+    {
+      "country": "Indonesia",
+      "isoCode": "IDN",
+      "iso2Code": "ID",
+      "region": "East Asia & Pacific",
+      "incomeLevel": "Upper middle income",
+      "featured": false
+    },
+    {
+      "country": "Iran",
+      "isoCode": "IRN",
+      "iso2Code": "IR",
+      "region": "Middle East & North Africa",
+      "incomeLevel": "Upper middle income",
+      "featured": false
+    },
+    {
+      "country": "Iraq",
+      "isoCode": "IRQ",
+      "iso2Code": "IQ",
+      "region": "Middle East & North Africa",
+      "incomeLevel": "Upper middle income",
+      "featured": false
+    },
+    {
+      "country": "Ireland",
+      "isoCode": "IRL",
+      "iso2Code": "IE",
+      "region": "Europe & Central Asia",
+      "incomeLevel": "High income",
+      "featured": false
+    },
+    {
+      "country": "Israel",
+      "isoCode": "ISR",
+      "iso2Code": "IL",
+      "region": "Middle East & North Africa",
+      "incomeLevel": "High income",
+      "featured": false
+    },
+    {
+      "country": "Italy",
+      "isoCode": "ITA",
+      "iso2Code": "IT",
+      "region": "Europe & Central Asia",
+      "incomeLevel": "High income",
+      "featured": false
+    },
+    {
+      "country": "Jamaica",
+      "isoCode": "JAM",
+      "iso2Code": "JM",
+      "region": "Latin America & Caribbean",
+      "incomeLevel": "Upper middle income",
+      "featured": false
+    },
+    {
+      "country": "Japan",
+      "isoCode": "JPN",
+      "iso2Code": "JP",
+      "region": "East Asia & Pacific",
+      "incomeLevel": "High income",
+      "featured": false
+    },
+    {
+      "country": "Jordan",
+      "isoCode": "JOR",
+      "iso2Code": "JO",
+      "region": "Middle East & North Africa",
+      "incomeLevel": "Lower middle income",
+      "featured": false
+    },
+    {
+      "country": "Kazakhstan",
+      "isoCode": "KAZ",
+      "iso2Code": "KZ",
+      "region": "Europe & Central Asia",
+      "incomeLevel": "Upper middle income",
+      "featured": false
+    },
+    {
+      "country": "Kenya",
+      "isoCode": "KEN",
+      "iso2Code": "KE",
+      "region": "Sub-Saharan Africa",
+      "incomeLevel": "Lower middle income",
+      "featured": false
+    },
+    {
+      "country": "Kuwait",
+      "isoCode": "KWT",
+      "iso2Code": "KW",
+      "region": "Middle East & North Africa",
+      "incomeLevel": "High income",
+      "featured": false
+    },
+    {
+      "country": "Kyrgyzstan",
+      "isoCode": "KGZ",
+      "iso2Code": "KG",
+      "region": "Europe & Central Asia",
+      "incomeLevel": "Lower middle income",
+      "featured": false
+    },
+    {
+      "country": "Laos",
+      "isoCode": "LAO",
+      "iso2Code": "LA",
+      "region": "East Asia & Pacific",
+      "incomeLevel": "Lower middle income",
+      "featured": false
+    },
+    {
+      "country": "Latvia",
+      "isoCode": "LVA",
+      "iso2Code": "LV",
+      "region": "Europe & Central Asia",
+      "incomeLevel": "High income",
+      "featured": false
+    },
+    {
+      "country": "Lebanon",
+      "isoCode": "LBN",
+      "iso2Code": "LB",
+      "region": "Middle East & North Africa",
+      "incomeLevel": "Lower middle income",
+      "featured": false
+    },
+    {
+      "country": "Lesotho",
+      "isoCode": "LSO",
+      "iso2Code": "LS",
+      "region": "Sub-Saharan Africa",
+      "incomeLevel": "Lower middle income",
+      "featured": false
+    },
+    {
+      "country": "Liberia",
+      "isoCode": "LBR",
+      "iso2Code": "LR",
+      "region": "Sub-Saharan Africa",
+      "incomeLevel": "Low income",
+      "featured": false
+    },
+    {
+      "country": "Libya",
+      "isoCode": "LBY",
+      "iso2Code": "LY",
+      "region": "Middle East & North Africa",
+      "incomeLevel": "Upper middle income",
+      "featured": false
+    },
+    {
+      "country": "Lithuania",
+      "isoCode": "LTU",
+      "iso2Code": "LT",
+      "region": "Europe & Central Asia",
+      "incomeLevel": "High income",
+      "featured": false
+    },
+    {
+      "country": "Luxembourg",
+      "isoCode": "LUX",
+      "iso2Code": "LU",
+      "region": "Europe & Central Asia",
+      "incomeLevel": "High income",
+      "featured": false
+    },
+    {
+      "country": "Madagascar",
+      "isoCode": "MDG",
+      "iso2Code": "MG",
+      "region": "Sub-Saharan Africa",
+      "incomeLevel": "Low income",
+      "featured": false
+    },
+    {
+      "country": "Malawi",
+      "isoCode": "MWI",
+      "iso2Code": "MW",
+      "region": "Sub-Saharan Africa",
+      "incomeLevel": "Low income",
+      "featured": false
+    },
+    {
+      "country": "Malaysia",
+      "isoCode": "MYS",
+      "iso2Code": "MY",
+      "region": "East Asia & Pacific",
+      "incomeLevel": "Upper middle income",
+      "featured": false
+    },
+    {
+      "country": "Mali",
+      "isoCode": "MLI",
+      "iso2Code": "ML",
+      "region": "Sub-Saharan Africa",
+      "incomeLevel": "Low income",
+      "featured": false
+    },
+    {
+      "country": "Malta",
+      "isoCode": "MLT",
+      "iso2Code": "MT",
+      "region": "Middle East & North Africa",
+      "incomeLevel": "High income",
+      "featured": false
+    },
+    {
+      "country": "Mauritania",
+      "isoCode": "MRT",
+      "iso2Code": "MR",
+      "region": "Sub-Saharan Africa",
+      "incomeLevel": "Lower middle income",
+      "featured": false
+    },
+    {
+      "country": "Mauritius",
+      "isoCode": "MUS",
+      "iso2Code": "MU",
+      "region": "Sub-Saharan Africa",
+      "incomeLevel": "Upper middle income",
+      "featured": false
+    },
+    {
+      "country": "Mexico",
+      "isoCode": "MEX",
+      "iso2Code": "MX",
+      "region": "Latin America & Caribbean",
+      "incomeLevel": "Upper middle income",
+      "featured": false
+    },
+    {
+      "country": "Moldova",
+      "isoCode": "MDA",
+      "iso2Code": "MD",
+      "region": "Europe & Central Asia",
+      "incomeLevel": "Upper middle income",
+      "featured": false
+    },
+    {
+      "country": "Mongolia",
+      "isoCode": "MNG",
+      "iso2Code": "MN",
+      "region": "East Asia & Pacific",
+      "incomeLevel": "Upper middle income",
+      "featured": false
+    },
+    {
+      "country": "Montenegro",
+      "isoCode": "MNE",
+      "iso2Code": "ME",
+      "region": "Europe & Central Asia",
+      "incomeLevel": "Upper middle income",
+      "featured": false
+    },
+    {
+      "country": "Morocco",
+      "isoCode": "MAR",
+      "iso2Code": "MA",
+      "region": "Middle East & North Africa",
+      "incomeLevel": "Lower middle income",
+      "featured": false
+    },
+    {
+      "country": "Mozambique",
+      "isoCode": "MOZ",
+      "iso2Code": "MZ",
+      "region": "Sub-Saharan Africa",
+      "incomeLevel": "Low income",
+      "featured": false
+    },
+    {
+      "country": "Myanmar",
+      "isoCode": "MMR",
+      "iso2Code": "MM",
+      "region": "East Asia & Pacific",
+      "incomeLevel": "Lower middle income",
+      "featured": false
+    },
+    {
+      "country": "Nepal",
+      "isoCode": "NPL",
+      "iso2Code": "NP",
+      "region": "South Asia",
+      "incomeLevel": "Lower middle income",
+      "featured": false
+    },
+    {
+      "country": "Netherlands",
+      "isoCode": "NLD",
+      "iso2Code": "NL",
+      "region": "Europe & Central Asia",
+      "incomeLevel": "High income",
+      "featured": false
+    },
+    {
+      "country": "New Zealand",
+      "isoCode": "NZL",
+      "iso2Code": "NZ",
+      "region": "East Asia & Pacific",
+      "incomeLevel": "High income",
+      "featured": false
+    },
+    {
+      "country": "Nicaragua",
+      "isoCode": "NIC",
+      "iso2Code": "NI",
+      "region": "Latin America & Caribbean",
+      "incomeLevel": "Lower middle income",
+      "featured": false
+    },
+    {
+      "country": "Niger",
+      "isoCode": "NER",
+      "iso2Code": "NE",
+      "region": "Sub-Saharan Africa",
+      "incomeLevel": "Low income",
+      "featured": false
+    },
+    {
+      "country": "Nigeria",
+      "isoCode": "NGA",
+      "iso2Code": "NG",
+      "region": "Sub-Saharan Africa",
+      "incomeLevel": "Lower middle income",
+      "featured": false
+    },
+    {
+      "country": "North Korea",
+      "isoCode": "PRK",
+      "iso2Code": "KP",
+      "region": "East Asia & Pacific",
+      "incomeLevel": "Low income",
+      "featured": false
+    },
+    {
+      "country": "North Macedonia",
+      "isoCode": "MKD",
+      "iso2Code": "MK",
+      "region": "Europe & Central Asia",
+      "incomeLevel": "Upper middle income",
+      "featured": false
+    },
+    {
+      "country": "Norway",
+      "isoCode": "NOR",
+      "iso2Code": "NO",
+      "region": "Europe & Central Asia",
+      "incomeLevel": "High income",
+      "featured": false
+    },
+    {
+      "country": "Oman",
+      "isoCode": "OMN",
+      "iso2Code": "OM",
+      "region": "Middle East & North Africa",
+      "incomeLevel": "High income",
+      "featured": false
+    },
+    {
+      "country": "Pakistan",
+      "isoCode": "PAK",
+      "iso2Code": "PK",
+      "region": "Middle East & North Africa",
+      "incomeLevel": "Lower middle income",
+      "featured": false
+    },
+    {
+      "country": "Palestine",
+      "isoCode": "PSE",
+      "iso2Code": "PS",
+      "region": "Middle East & North Africa",
+      "incomeLevel": "Lower middle income",
+      "featured": false
+    },
+    {
+      "country": "Panama",
+      "isoCode": "PAN",
+      "iso2Code": "PA",
+      "region": "Latin America & Caribbean",
+      "incomeLevel": "High income",
+      "featured": false
+    },
+    {
+      "country": "Paraguay",
+      "isoCode": "PRY",
+      "iso2Code": "PY",
+      "region": "Latin America & Caribbean",
+      "incomeLevel": "Upper middle income",
+      "featured": false
+    },
+    {
+      "country": "Peru",
+      "isoCode": "PER",
+      "iso2Code": "PE",
+      "region": "Latin America & Caribbean",
+      "incomeLevel": "Upper middle income",
+      "featured": false
+    },
+    {
+      "country": "Philippines",
+      "isoCode": "PHL",
+      "iso2Code": "PH",
+      "region": "East Asia & Pacific",
+      "incomeLevel": "Lower middle income",
+      "featured": false
+    },
+    {
+      "country": "Poland",
+      "isoCode": "POL",
+      "iso2Code": "PL",
+      "region": "Europe & Central Asia",
+      "incomeLevel": "High income",
+      "featured": false
+    },
+    {
+      "country": "Portugal",
+      "isoCode": "PRT",
+      "iso2Code": "PT",
+      "region": "Europe & Central Asia",
+      "incomeLevel": "High income",
+      "featured": false
+    },
+    {
+      "country": "Qatar",
+      "isoCode": "QAT",
+      "iso2Code": "QA",
+      "region": "Middle East & North Africa",
+      "incomeLevel": "High income",
+      "featured": false
+    },
+    {
+      "country": "Romania",
+      "isoCode": "ROU",
+      "iso2Code": "RO",
+      "region": "Europe & Central Asia",
+      "incomeLevel": "High income",
+      "featured": false
+    },
+    {
+      "country": "Russia",
+      "isoCode": "RUS",
+      "iso2Code": "RU",
+      "region": "Europe & Central Asia",
+      "incomeLevel": "High income",
+      "featured": false
+    },
+    {
+      "country": "Rwanda",
+      "isoCode": "RWA",
+      "iso2Code": "RW",
+      "region": "Sub-Saharan Africa",
+      "incomeLevel": "Low income",
+      "featured": false
+    },
+    {
+      "country": "Saint Lucia",
+      "isoCode": "LCA",
+      "iso2Code": "LC",
+      "region": "Latin America & Caribbean",
+      "incomeLevel": "Upper middle income",
+      "featured": false
+    },
+    {
+      "country": "Sao Tome and Principe",
+      "isoCode": "STP",
+      "iso2Code": "ST",
+      "region": "Sub-Saharan Africa",
+      "incomeLevel": "Lower middle income",
+      "featured": false
+    },
+    {
+      "country": "Saudi Arabia",
+      "isoCode": "SAU",
+      "iso2Code": "SA",
+      "region": "Middle East & North Africa",
+      "incomeLevel": "High income",
+      "featured": false
+    },
+    {
+      "country": "Senegal",
+      "isoCode": "SEN",
+      "iso2Code": "SN",
+      "region": "Sub-Saharan Africa",
+      "incomeLevel": "Lower middle income",
+      "featured": false
+    },
+    {
+      "country": "Serbia",
+      "isoCode": "SRB",
+      "iso2Code": "RS",
+      "region": "Europe & Central Asia",
+      "incomeLevel": "Upper middle income",
+      "featured": false
+    },
+    {
+      "country": "Seychelles",
+      "isoCode": "SYC",
+      "iso2Code": "SC",
+      "region": "Sub-Saharan Africa",
+      "incomeLevel": "High income",
+      "featured": false
+    },
+    {
+      "country": "Sierra Leone",
+      "isoCode": "SLE",
+      "iso2Code": "SL",
+      "region": "Sub-Saharan Africa",
+      "incomeLevel": "Low income",
+      "featured": false
+    },
+    {
+      "country": "Singapore",
+      "isoCode": "SGP",
+      "iso2Code": "SG",
+      "region": "East Asia & Pacific",
+      "incomeLevel": "High income",
+      "featured": false
+    },
+    {
+      "country": "Slovakia",
+      "isoCode": "SVK",
+      "iso2Code": "SK",
+      "region": "Europe & Central Asia",
+      "incomeLevel": "High income",
+      "featured": false
+    },
+    {
+      "country": "Slovenia",
+      "isoCode": "SVN",
+      "iso2Code": "SI",
+      "region": "Europe & Central Asia",
+      "incomeLevel": "High income",
+      "featured": false
+    },
+    {
+      "country": "South Africa",
+      "isoCode": "ZAF",
+      "iso2Code": "ZA",
+      "region": "Sub-Saharan Africa",
+      "incomeLevel": "Upper middle income",
+      "featured": false
+    },
+    {
+      "country": "South Korea",
+      "isoCode": "KOR",
+      "iso2Code": "KR",
+      "region": "East Asia & Pacific",
+      "incomeLevel": "High income",
+      "featured": false
+    },
+    {
+      "country": "Spain",
+      "isoCode": "ESP",
+      "iso2Code": "ES",
+      "region": "Europe & Central Asia",
+      "incomeLevel": "High income",
+      "featured": false
+    },
+    {
+      "country": "Sri Lanka",
+      "isoCode": "LKA",
+      "iso2Code": "LK",
+      "region": "South Asia",
+      "incomeLevel": "Lower middle income",
+      "featured": false
+    },
+    {
+      "country": "Sweden",
+      "isoCode": "SWE",
+      "iso2Code": "SE",
+      "region": "Europe & Central Asia",
+      "incomeLevel": "High income",
+      "featured": false
+    },
+    {
+      "country": "Switzerland",
+      "isoCode": "CHE",
+      "iso2Code": "CH",
+      "region": "Europe & Central Asia",
+      "incomeLevel": "High income",
+      "featured": false
+    },
+    {
+      "country": "Syria",
+      "isoCode": "SYR",
+      "iso2Code": "SY",
+      "region": "Middle East & North Africa",
+      "incomeLevel": "Low income",
+      "featured": false
+    },
+    {
+      "country": "Tajikistan",
+      "isoCode": "TJK",
+      "iso2Code": "TJ",
+      "region": "Europe & Central Asia",
+      "incomeLevel": "Lower middle income",
+      "featured": false
+    },
+    {
+      "country": "Tanzania",
+      "isoCode": "TZA",
+      "iso2Code": "TZ",
+      "region": "Sub-Saharan Africa",
+      "incomeLevel": "Lower middle income",
+      "featured": false
+    },
+    {
+      "country": "Thailand",
+      "isoCode": "THA",
+      "iso2Code": "TH",
+      "region": "East Asia & Pacific",
+      "incomeLevel": "Upper middle income",
+      "featured": false
+    },
+    {
+      "country": "Togo",
+      "isoCode": "TGO",
+      "iso2Code": "TG",
+      "region": "Sub-Saharan Africa",
+      "incomeLevel": "Low income",
+      "featured": false
+    },
+    {
+      "country": "Trinidad and Tobago",
+      "isoCode": "TTO",
+      "iso2Code": "TT",
+      "region": "Latin America & Caribbean",
+      "incomeLevel": "High income",
+      "featured": false
+    },
+    {
+      "country": "Tunisia",
+      "isoCode": "TUN",
+      "iso2Code": "TN",
+      "region": "Middle East & North Africa",
+      "incomeLevel": "Lower middle income",
+      "featured": false
+    },
+    {
+      "country": "Turkey",
+      "isoCode": "TUR",
+      "iso2Code": "TR",
+      "region": "Europe & Central Asia",
+      "incomeLevel": "Upper middle income",
+      "featured": false
+    },
+    {
+      "country": "Turkmenistan",
+      "isoCode": "TKM",
+      "iso2Code": "TM",
+      "region": "Europe & Central Asia",
+      "incomeLevel": "Upper middle income",
+      "featured": false
+    },
+    {
+      "country": "Uganda",
+      "isoCode": "UGA",
+      "iso2Code": "UG",
+      "region": "Sub-Saharan Africa",
+      "incomeLevel": "Low income",
+      "featured": false
+    },
+    {
+      "country": "Ukraine",
+      "isoCode": "UKR",
+      "iso2Code": "UA",
+      "region": "Europe & Central Asia",
+      "incomeLevel": "Upper middle income",
+      "featured": false
+    },
+    {
+      "country": "United Arab Emirates",
+      "isoCode": "ARE",
+      "iso2Code": "AE",
+      "region": "Middle East & North Africa",
+      "incomeLevel": "High income",
+      "featured": false
+    },
+    {
+      "country": "United Kingdom",
+      "isoCode": "GBR",
+      "iso2Code": "GB",
+      "region": "Europe & Central Asia",
+      "incomeLevel": "High income",
+      "featured": true
+    },
+    {
+      "country": "United States",
+      "isoCode": "USA",
+      "iso2Code": "US",
+      "region": "North America",
+      "incomeLevel": "High income",
+      "featured": true
+    },
+    {
+      "country": "Uruguay",
+      "isoCode": "URY",
+      "iso2Code": "UY",
+      "region": "Latin America & Caribbean",
+      "incomeLevel": "High income",
+      "featured": false
+    },
+    {
+      "country": "Uzbekistan",
+      "isoCode": "UZB",
+      "iso2Code": "UZ",
+      "region": "Europe & Central Asia",
+      "incomeLevel": "Lower middle income",
+      "featured": false
+    },
+    {
+      "country": "Venezuela",
+      "isoCode": "VEN",
+      "iso2Code": "VE",
+      "region": "Latin America & Caribbean",
+      "incomeLevel": "Not classified",
+      "featured": false
+    },
+    {
+      "country": "Vietnam",
+      "isoCode": "VNM",
+      "iso2Code": "VN",
+      "region": "East Asia & Pacific",
+      "incomeLevel": "Lower middle income",
+      "featured": false
+    },
+    {
+      "country": "Yemen",
+      "isoCode": "YEM",
+      "iso2Code": "YE",
+      "region": "Middle East & North Africa",
+      "incomeLevel": "Low income",
+      "featured": false
+    },
+    {
+      "country": "Zambia",
+      "isoCode": "ZMB",
+      "iso2Code": "ZM",
+      "region": "Sub-Saharan Africa",
+      "incomeLevel": "Lower middle income",
+      "featured": false
+    },
+    {
+      "country": "Zimbabwe",
+      "isoCode": "ZWE",
+      "iso2Code": "ZW",
+      "region": "Sub-Saharan Africa",
+      "incomeLevel": "Lower middle income",
+      "featured": false
+    }
+  ],
+  "storyPresets": [
+    {
+      "id": "china",
+      "label": "看中国",
+      "description": "观察高速增长与排放变化是否同步。",
+      "countries": [
+        "CHN"
+      ],
+      "metric": "co2PerCapita"
+    },
+    {
+      "id": "uk-germany",
+      "label": "看英国与德国",
+      "description": "两个欧洲脱钩样本，但转型节奏并不相同。",
+      "countries": [
+        "GBR",
+        "DEU"
+      ],
+      "metric": "co2PerCapita"
+    },
+    {
+      "id": "us-india",
+      "label": "看美国与印度",
+      "description": "对比成熟经济体与新兴经济体的路径差异。",
+      "countries": [
+        "USA",
+        "IND"
+      ],
+      "metric": "co2PerCapita"
+    },
+    {
+      "id": "high-income",
+      "label": "看高收入样本",
+      "description": "一组高收入国家如何在能源结构上分化。",
+      "countries": [
+        "DEU",
+        "GBR",
+        "SWE",
+        "DNK"
+      ],
+      "metric": "consumptionCo2PerCapita"
+    },
+    {
+      "id": "growth-and-emissions",
+      "label": "看增长伴随排放",
+      "description": "快速增长国家是否仍处于排放上行阶段。",
+      "countries": [
+        "CHN",
+        "IND",
+        "IDN",
+        "SAU"
+      ],
+      "metric": "co2PerCapita"
+    }
+  ]
+}
