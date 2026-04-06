@@ -469,6 +469,50 @@ p {
   position: relative;
 }
 
+.scatter-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.scatter-toolbar__group {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.scatter-tool-button {
+  padding: 8px 12px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.88);
+  color: var(--text);
+}
+
+.scatter-tool-button:hover {
+  border-color: rgba(31, 143, 106, 0.28);
+  color: var(--accent-strong);
+}
+
+.scatter-zoom-badge {
+  padding: 8px 10px;
+  border-radius: 999px;
+  background: rgba(31, 143, 106, 0.08);
+  color: var(--accent-strong);
+  font-weight: 700;
+}
+
+.scatter-interaction-hint {
+  margin-bottom: 14px;
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
 .panel-heading {
   display: flex;
   justify-content: space-between;
@@ -514,6 +558,25 @@ p {
   width: 100%;
   height: auto;
   display: block;
+}
+
+.scatter-plot-bg {
+  fill: rgba(255, 255, 255, 0.72);
+}
+
+.scatter-brush-surface {
+  fill: transparent;
+  cursor: crosshair;
+}
+
+.annotation-layer,
+.annotation-line,
+.annotation-card,
+.quadrant,
+.axis-title,
+.quadrant-label,
+.point-label {
+  pointer-events: none;
 }
 
 .quadrant {
@@ -595,6 +658,10 @@ p {
   fill: var(--text);
   font-size: 0.84rem;
   font-weight: 700;
+  paint-order: stroke;
+  stroke: rgba(255, 252, 246, 0.92);
+  stroke-width: 3px;
+  stroke-linejoin: round;
 }
 
 .chart-tooltip {
@@ -690,6 +757,18 @@ p {
 .annotation-card__body {
   fill: var(--muted);
   font-size: 0.7rem;
+}
+
+.scatter-interaction-layer {
+  fill: transparent;
+  pointer-events: all;
+}
+
+.scatter-brush {
+  fill: rgba(31, 143, 106, 0.12);
+  stroke: rgba(31, 143, 106, 0.9);
+  stroke-width: 1.4;
+  stroke-dasharray: 5 4;
 }
 
 .scatter-footer {

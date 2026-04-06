@@ -109,6 +109,7 @@ const storyAnnotationMap: Record<
 }
 
 const locale = ref<Locale>('zh')
+const maxSelectedCountries = 6
 const loading = ref(true)
 const errorMessage = ref('')
 const records = ref<CountryYearRecord[]>([])
@@ -592,14 +593,23 @@ function selectCountry(isoCode: string) {
   activeStory.value = null
 
   if (selectedCountries.value.includes(isoCode)) {
-    selectedCountries.value = [
-      isoCode,
-      ...selectedCountries.value.filter((currentIsoCode) => currentIsoCode !== isoCode),
-    ]
+    selectedCountries.value = selectedCountries.value.filter((currentIsoCode) => currentIsoCode !== isoCode)
     return
   }
 
-  selectedCountries.value = [isoCode, ...selectedCountries.value].slice(0, 4)
+  selectedCountries.value = [isoCode, ...selectedCountries.value].slice(0, maxSelectedCountries)
+}
+
+function replaceSelectedCountries(isoCodes: string[]) {
+  hoveredCountry.value = null
+  activeStory.value = null
+
+  const uniqueCountries = [...new Set(isoCodes)].slice(0, maxSelectedCountries)
+  if (!uniqueCountries.length) {
+    return
+  }
+
+  selectedCountries.value = uniqueCountries
 }
 
 function removeCountry(isoCode: string) {
@@ -608,7 +618,7 @@ function removeCountry(isoCode: string) {
 
 function applyStory(story: StoryPreset) {
   activeStory.value = story.id
-  selectedCountries.value = story.countries.slice(0, 4)
+  selectedCountries.value = story.countries.slice(0, maxSelectedCountries)
   if (story.metric) {
     selectedMetric.value = story.metric
   }
@@ -855,6 +865,7 @@ function resetExploration() {
                 :locale="locale"
                 :annotations="activeStoryAnnotations"
                 @select="selectCountry"
+                @box-select="replaceSelectedCountries"
                 @hover="hoveredCountry = $event"
               />
             </section>
