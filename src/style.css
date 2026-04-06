@@ -1133,6 +1133,116 @@ p {
   line-height: 1.6;
 }
 
+.writeup-card {
+  overflow: hidden;
+}
+
+.writeup-layout {
+  display: grid;
+  grid-template-columns: minmax(200px, 240px) minmax(0, 1fr);
+  gap: 24px;
+  align-items: start;
+}
+
+.writeup-nav {
+  position: sticky;
+  top: 18px;
+  display: grid;
+  gap: 10px;
+  padding: 16px;
+  border-radius: 20px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.72);
+}
+
+.writeup-nav__title {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.writeup-nav__link {
+  color: var(--text);
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+.writeup-nav__link:hover {
+  color: var(--accent-strong);
+}
+
+.writeup-prose {
+  min-width: 0;
+  color: var(--text);
+  line-height: 1.8;
+}
+
+.writeup-prose > :first-child {
+  margin-top: 0;
+}
+
+.writeup-prose h1,
+.writeup-prose h2,
+.writeup-prose h3 {
+  scroll-margin-top: 28px;
+  letter-spacing: -0.03em;
+}
+
+.writeup-prose h1 {
+  font-size: 2rem;
+}
+
+.writeup-prose h2 {
+  margin-top: 28px;
+  font-size: 1.4rem;
+}
+
+.writeup-prose h3 {
+  margin-top: 22px;
+  font-size: 1.1rem;
+}
+
+.writeup-prose p,
+.writeup-prose ul,
+.writeup-prose ol,
+.writeup-prose pre {
+  margin: 14px 0 0;
+}
+
+.writeup-prose ul,
+.writeup-prose ol {
+  padding-left: 20px;
+}
+
+.writeup-prose li + li {
+  margin-top: 6px;
+}
+
+.writeup-prose code {
+  padding: 2px 6px;
+  border-radius: 8px;
+  background: rgba(35, 48, 45, 0.08);
+  font-family: var(--mono);
+  font-size: 0.92em;
+}
+
+.writeup-prose pre {
+  overflow-x: auto;
+  padding: 16px;
+  border-radius: 18px;
+  background: #23302d;
+  color: #f8f3ea;
+}
+
+.writeup-prose pre code {
+  padding: 0;
+  background: transparent;
+  color: inherit;
+}
+
 .footer {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1177,6 +1287,14 @@ p {
   .selection-row {
     flex-direction: column;
     align-items: start;
+  }
+
+  .writeup-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .writeup-nav {
+    position: static;
   }
 
   .scatter-footer {

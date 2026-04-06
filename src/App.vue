@@ -3,6 +3,7 @@ import { computed, onMounted, ref, watch } from 'vue'
 import EnergyMixPanel from './components/EnergyMixPanel.vue'
 import InsightPanel from './components/InsightPanel.vue'
 import OverviewScatter from './components/OverviewScatter.vue'
+import ProjectWriteupSection from './components/ProjectWriteupSection.vue'
 import TrajectoryPanel from './components/TrajectoryPanel.vue'
 import type {
   CountryOption,
@@ -14,6 +15,7 @@ import type {
   StoryPreset,
 } from './types'
 import { formatNumber, formatSignedPercent } from './utils/formatters'
+import projectWriteupMarkdown from '../HW2_PROJECT_WRITEUP.md?raw'
 
 const metricDefinitions: Record<MetricKey, Record<Locale, string>> = {
   co2PerCapita: { zh: '人均生产端 CO2', en: 'Production CO2 per capita' },
@@ -881,6 +883,10 @@ function resetExploration() {
 
             <section class="panel panel--full">
               <EnergyMixPanel :series-groups="selectedSeriesGroups" :locale="locale" />
+            </section>
+
+            <section class="panel panel--full">
+              <ProjectWriteupSection :markdown="projectWriteupMarkdown" :locale="locale" />
             </section>
           </div>
         </main>
